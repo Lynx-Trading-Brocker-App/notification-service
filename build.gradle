@@ -18,7 +18,8 @@ repositories {
 dependencies {
     // Replaced starter and starter-json with starter-web for a more robust dependency set
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
